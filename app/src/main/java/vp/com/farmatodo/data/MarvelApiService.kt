@@ -11,8 +11,6 @@ interface MarvelApiService {
     @GET("/v1/public/comics?limit=50&offset=50")
     abstract fun getComics(): Observable<ComicResponse>
 
-    @GET("/v1/public/comics/{comicId}")
-    abstract fun getComic(@Path("comicId") comicId: Int): Observable<Comic>
 
     @GET("/v1/public/characters?limit=50&offset=50")
     abstract fun getCharacters(): Observable<ComicResponse>

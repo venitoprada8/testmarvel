@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         MainLayoutBinding binding = DataBindingUtil.setContentView(this, R.layout.main_layout);
         setSupportActionBar(binding.toolbar);
         binding.mainContainer.setAdapter(new MainActivityFragmentPagerAdapter(getSupportFragmentManager()));
-        binding.tabs.setupWithViewPager(binding.mainContainer);
+        //binding.tabs.setupWithViewPager(binding.mainContainer);
     }
 
     public class MainActivityFragmentPagerAdapter extends FragmentPagerAdapter {

@@ -38,8 +38,8 @@ public class MyApplication extends Application {
             Timber.d(chain.toString());
             Request request = chain.request();
             HttpUrl url = request.url().newBuilder().addQueryParameter("ts", "1")
-                    .addQueryParameter("apikey", "eb95459cac0b6177473decbeb608a839")
-                    .addQueryParameter("hash", "1ae5d2e78ffa4682eb728f01a6c0c4f5").build();
+                    .addQueryParameter("apikey", "f130fb5b67b82dd2ce8e07cb05bce699")
+                    .addQueryParameter("hash", "178f8e1f27158ece5219788d8ec4a022").build();
             request = request.newBuilder().url(url).build();
             return chain.proceed(request);
         });
