@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Pruebafarmatodo</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <string name="comic">Comic</string>
+    <string name="characters">Character</string>
+
+    <string name="cheese_ipsum">xxxxxx</string>
+    <string name="checkin">Checkin</string>
+    <string name="menu_settings">Settings</string>
 </resources>
