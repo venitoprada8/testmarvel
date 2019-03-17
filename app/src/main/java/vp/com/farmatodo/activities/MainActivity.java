@@ -9,7 +9,9 @@ import android.os.Bundle;
 
 import vp.com.farmatodo.R;
 import vp.com.farmatodo.databinding.MainLayoutBinding;
+import vp.com.farmatodo.fragment.CharactersFragment;
 import vp.com.farmatodo.fragment.ComicFragment;
+import vp.com.farmatodo.fragment.EventsFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,8 +38,9 @@ public class MainActivity extends AppCompatActivity {
                 case 1:
 
                 default:
-                    return new ComicFragment();
-                    //return new CharacterFragment();
+//                    return new ComicFragment();
+                    //return new CharactersFragment();
+                    return new EventsFragment();
             }
         }
 
